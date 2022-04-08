@@ -17,8 +17,8 @@ function handleMove(position, player1, player2){
 
         gameOver = isWinner();
 
-        if (!gameOver){
-            playerTime = (playerTime == 0) ? 1 : 0;
+    if (!gameOver){
+       playerTime = (playerTime == 0) ? 1 : 0;
         }
         
     }
@@ -27,7 +27,7 @@ function handleMove(position, player1, player2){
 
 }
 
-function isWinner() {
+    function isWinner() {
 
     let winnerPositions = [
         [0, 1, 2],
@@ -52,7 +52,7 @@ function isWinner() {
     
     }
 
-    return false;
+     return false;
 
 }
 
